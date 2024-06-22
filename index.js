@@ -56,7 +56,6 @@ app.listen(config.PORT, () => {
 });
 
 const verifiedSignal = sig => {
-    console.log(sig)
     return sig === '2032690d8a3bdf6d'
 }
 
